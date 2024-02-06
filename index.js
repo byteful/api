@@ -1,9 +1,9 @@
-const express = require('express');
-const fetch = require('node-fetch');
-const fs = require('fs');
-const app = express();
-const path = require('path')
+import fetch from "node-fetch";
+import express from "express";
+import fs from "fs";
+import path from "path";
 
+const app = express();
 const cached = {
   NightMarket: null,
   PictureAds: null,

@@ -1,14 +1,14 @@
 {
-  "name": "nodejs",
+  "name": "byteful-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "byteful's rest API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "node index.js"
   },
   "type": "module",
   "keywords": [],
-  "author": "",
+  "author": "byteful",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
